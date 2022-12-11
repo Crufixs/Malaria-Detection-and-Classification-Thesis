@@ -1,0 +1,7 @@
+classes = 1
+valid = Program/Test_detect.txt
+test = Program/Test_detect.txt
+labels = Program/Test_detect.list
+names = Program/Test_detect.list
+backup = Weights/
+top = 1

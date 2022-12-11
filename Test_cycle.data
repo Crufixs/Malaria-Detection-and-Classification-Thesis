@@ -1,0 +1,7 @@
+classes = 4
+valid = Program/Test_classify.txt
+test = Program/Test_classify.txt
+labels = Program/Test_cycle.list
+names = Program/Test_cycle.list
+backup = Weights/
+top = 1

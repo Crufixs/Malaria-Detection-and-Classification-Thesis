@@ -1,0 +1,10 @@
+//DETECTION
+darknet detector test Thesis/Program/Test_detect.data Thesis/Yolov4/yolov4-malaria.cfg "E:/Student Files/College/7TH SEM/Thesis/Weights2/yolov4-malaria_3000.weights" -ext_output -dont_show -out Thesis/Program/Results/Yolov4_type_result.json < Thesis/Program/Test_type.txt
+
+//TYPE
+darknet classifier test Thesis/Program/Test_type.data Thesis/Darknet53_Type/Darknet53_Type.cfg "E:/Student Files/College/7TH SEM/Thesis/Weights2/Darknet53_Type_10000.weights" -ext_output -dont_show -out < Thesis/Program/Test_classify.txt > Thesis/Program/Results/Type_result.txt
+
+//CYCLE
+darknet classifier test Thesis/Program/Test_cycle.data Thesis/Darknet53_Cycle/Darknet53_Cyclev2.cfg "E:/Student Files/College/7TH SEM/Thesis/Weights2/Darknet53_Cyclev2_9000.weights" -ext_output -dont_show -out < Thesis/Program/Test_classify.txt > Thesis/Program/Results/Cycle_result.txt
+
+Thesis/Testing/testing_Type/1709041080-0037-S.jpg

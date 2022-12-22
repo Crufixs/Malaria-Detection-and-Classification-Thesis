@@ -10,7 +10,7 @@ Further information about the thesis' documentation and methodology can be found
 The program allows the user to detect the malaria-infected cells within an input blood smear image and then classify each of the infected cells according to their
 parasite type and life-cycle stage. To run the program, the following procedures must be followed:
 
-1. Follow the procedures in the following link to install the darknet framework and its prerequisites: <a href="https://github.com/AlexeyAB/darknet#requirements-for-windows-linux-and-macos">Procedures</a>
+1. Make sure you have the requirements in the following link, and follow the instructions within the next link to install the darknet framework: <a href="https://github.com/AlexeyAB/darknet#requirements-for-windows-linux-and-macos">Requirements</a>, and <a href="https://github.com/AlexeyAB/darknet#how-to-compile-on-windows-using-cmake">Procedure</a> 
 2. Create a folder named “Program” in your darknet-master directory
 3. Clone or download this repository in the “Program” folder
 4. Create a folder named “Dataset” within the “Program” folder
@@ -20,7 +20,7 @@ parasite type and life-cycle stage. To run the program, the following procedures
 7. Download the weights for YOLOv4 and Darknet53 from the following drive link and then place it in the “Weights” folder:
 <a href="https://drive.google.com/drive/folders/1knAU8cNAYGPqw0Gqdpo4r47nLRg3q_jN">Weights</a>
 8. Open up the command prompt in the “Program” folder and then launch the program by typing the line:
-### `python DATASCI09_GUI.py`
+ `python DATASCI09_GUI.py`
 10. After the program launches, the user may now detect and classify the malaria-infected cells within an input image.
 
 ## Screenshots of the Program
